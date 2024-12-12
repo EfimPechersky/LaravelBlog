@@ -1,0 +1,156 @@
+header{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row; 
+    align-items: flex-end;
+    justify-content:space-between;
+    margin-bottom: 5%;
+}
+.menu{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.is-invalid{
+    border:1px red solid;
+}
+td{
+    border:1px black solid;
+}
+.alert-danger{
+    color: red;
+    text-decoration: red;
+    margin:5px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    background-size: 100% 100%;
+    background-image: url(../images/Laravel.svg.png);
+    margin-right: 5%;
+}
+.menubutton{
+    height:fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    width:fit-content;
+    padding: 8px;
+    background-color: aliceblue;
+    border: solid black 1px;
+}
+.menubutton:hover{
+    background-color: rgb(195, 195, 196);
+}
+.auth{
+    justify-self: end;
+    font-size: 25px;
+}
+body{
+    padding:2%;
+}
+main{
+    width:100%;
+    text-align: center;
+    display:flex;
+    height:fit-content;
+    flex-direction: column;
+}
+.post{
+    display:flex;
+    height:fit-content;
+    width:fit-content;
+    flex-direction: column;
+    padding:5px;
+    border:black solid 2px;
+    align-self: center;
+    max-width: 70%;
+    min-width: 40%;
+    padding: 20px;
+    margin:30px
+}
+.header{
+    margin-top: 10px;
+    font-size: 20px;
+    align-self: flex-start;
+}
+.posttext{
+    margin-top: 30px;
+    font-size: 15px;
+    width:100%;
+    text-align: left;
+    align-self: flex-start;
+}
+.postdate{
+    margin-top: 20px;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+.imagesizes{
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+    max-width: 200px;
+    max-height: 200px;
+}
+.postimage{
+    width:100%;
+    height:100%;
+    margin-top: 30px;
+}
+.container{
+    width:100%;
+}
+h{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.addcomment{
+    display:flex;
+    height:fit-content;
+    width:fit-content;
+    flex-direction: row;
+}
+.comment{
+    display:flex;
+    height:fit-content;
+    width:100%;
+    flex-direction: column;
+    padding:5px;
+    border:black solid 2px;
+    align-self: center;
+    padding: 10px;
+    margin:20px
+}
+.comment .username{
+    font-size: 15px;
+    align-self: flex-start;
+}
+.comment .text{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    align-self: flex-start;
+}
+.comment .date{
+    align-self: flex-end;
+}
+.deletecomment{
+    align-self: flex-end;
+}
+.addcomment{
+    display:flex;
+    height:fit-content;
+    width:100%;
+    flex-direction: row;
+    border:black solid 2px;
+    align-self: center;
+}
+.addcomment input{
+    width:70%;
+}
+.addcomment .submit{
+    width:30%;
+}
